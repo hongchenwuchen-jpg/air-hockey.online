@@ -3,64 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Air Hockey Online - Play Three Blind Mice Game Free</title>
-  <meta name="description" content="Play Three Blind Mice, a fast-paced online Air Hockey game. Challenge your reflexes in this fun and free browser-based game, optimized for both desktop and mobile.">
+  <title>Air Hockey Online - Play Free Air Hockey Game</title>
+  <meta name="description" content="Play Air Hockey online for free! Enjoy the fast-paced air hockey game on your PC or mobile, challenge your skills, and experience smooth gameplay anytime.">
   <link rel="canonical" href="https://air-hockey.online/">
-  <meta name="robots" content="index, follow">
+
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white text-gray-900 font-sans">
+<body class="bg-gray-50 text-gray-900 font-sans">
 
   <!-- Header -->
-  <header class="w-full bg-gray-50 shadow-md">
-    <div class="max-w-5xl mx-auto px-4 py-6 text-center">
-      <h1 class="text-3xl md:text-5xl font-bold text-gray-900">Three Blind Mice - Air Hockey Online</h1>
-      <p class="mt-2 text-lg text-gray-600">Fast, fun, and free online air hockey game you can play anywhere.</p>
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <h1 class="text-2xl font-bold text-blue-600">Air Hockey Online</h1>
+      <nav>
+        <ul class="flex space-x-6 text-gray-700 font-medium">
+          <li><a href="#play" class="hover:text-blue-600">Play</a></li>
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#features" class="hover:text-blue-600">Features</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
+  <!-- Hero Section -->
+  <section class="text-center py-12 bg-gradient-to-b from-blue-100 to-white">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900">Play Air Hockey Online for Free</h1>
+    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+      Experience the thrill of Air Hockey right in your browser. Fast-paced, fun, and completely free to play.
+    </p>
+  </section>
+
   <!-- Game Section -->
-  <main class="max-w-5xl mx-auto px-4 py-10">
-    <section class="mb-12">
-      <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">Play the Game</h2>
-      <div class="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-lg border border-gray-200">
-        <iframe src="https://cdn.htmlgames.com/AirHockey/" 
-                class="w-full h-full" 
-                frameborder="0" 
-                scrolling="no" 
-                allowfullscreen>
-        </iframe>
-      </div>
-    </section>
+  <section id="play" class="max-w-6xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-bold text-blue-600 mb-6">Play Air Hockey Now</h2>
+    <div class="w-full flex justify-center">
+      <iframe src="https://cdn.htmlgames.com/AirHockey/" 
+              class="w-full md:w-[1200px] h-[600px] md:h-[800px] rounded-2xl shadow-lg border-0"
+              allowfullscreen></iframe>
+    </div>
+  </section>
 
-    <!-- About Game -->
-    <section class="mb-12">
-      <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">About Three Blind Mice - Air Hockey</h2>
-      <p class="text-lg text-gray-700 leading-relaxed">
-        Three Blind Mice is an exciting browser-based Air Hockey game where speed and precision matter. 
-        Whether you’re on desktop or mobile, the smooth gameplay and responsive controls bring the classic arcade experience straight to your screen. 
-        Compete against the AI, sharpen your reflexes, and enjoy endless fun in this free online game.
-      </p>
-    </section>
+  <!-- About Section -->
+  <section id="about" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold text-blue-600 mb-4">About Air Hockey</h2>
+    <p class="text-gray-700 leading-relaxed">
+      Air Hockey is a classic arcade game that brings excitement and fast-paced action to players of all ages. 
+      In this online version, you can enjoy smooth gameplay directly in your browser without downloads. 
+      The goal is simple: strike the puck into your opponent’s goal while defending your own.
+    </p>
+  </section>
 
-    <!-- Features -->
-    <section>
-      <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">Game Features</h2>
-      <ul class="list-disc pl-6 text-lg text-gray-700 space-y-2">
-        <li>Free to play online – no downloads required</li>
-        <li>Optimized for both PC and mobile devices</li>
-        <li>Classic air hockey gameplay with smooth controls</li>
-        <li>Fast-paced action that challenges your reflexes</li>
-        <li>Colorful design inspired by modern arcade fun</li>
+  <!-- Features Section -->
+  <section id="features" class="bg-gray-100 py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-blue-600 mb-6">Game Features</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700">
+        <li class="p-4 bg-white rounded-xl shadow hover:shadow-md transition">
+          ⚡ Smooth and responsive gameplay on both PC and mobile
+        </li>
+        <li class="p-4 bg-white rounded-xl shadow hover:shadow-md transition">
+          🎮 Classic arcade Air Hockey experience in your browser
+        </li>
+        <li class="p-4 bg-white rounded-xl shadow hover:shadow-md transition">
+          🌍 No downloads required – play instantly online
+        </li>
+        <li class="p-4 bg-white rounded-xl shadow hover:shadow-md transition">
+          🏆 Perfect for quick matches and skill challenges
+        </li>
       </ul>
-    </section>
-  </main>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer class="w-full bg-gray-50 border-t mt-12">
-    <div class="max-w-5xl mx-auto px-4 py-6 text-center text-gray-600">
-      <p>&copy; 2025 Air-Hockey.online | All Rights Reserved</p>
+  <footer class="bg-white shadow-inner mt-12">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-center text-gray-600 text-sm">
+      <p>© 2025 Air-Hockey.online | Play Free Air Hockey Game</p>
     </div>
   </footer>
+
 </body>
 </html>
